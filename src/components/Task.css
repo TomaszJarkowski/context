@@ -1,0 +1,60 @@
+.task {
+    background-color: #2B2B2B;
+    border-bottom: 5px solid #38EF7D;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+@media(min-width: 820px) {
+    .task {
+        flex-direction: row;
+    }
+
+}
+
+.task__title {
+    max-width: 35%;
+    word-wrap: break-word;
+    margin: 10px;
+}
+
+.task__text {
+    max-width: 40%;
+    word-wrap: break-word;
+    margin: 10px;
+
+}
+
+.task__buttons button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background: none;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.task__buttons .task__delete {
+    border: 2px solid #E23F46;
+}
+
+.task__buttons .task__done {
+    border: 2px solid #38EF7D;
+}
+
+.task__done:hover {
+    background-color: #38EF7D
+}
+
+.task__delete:hover {
+    background-color: #E23F46
+}
