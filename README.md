@@ -2,9 +2,13 @@
 
 ContextAndRedux is a simple comparison of the two state management methods in a React app. 2 identical ToDoApp applications were created. In one of them, managing the state of the application is via React Redux, and in the other, using useContext. Additionally, in the application with Redux, hooks such as (useDispatch, useSelector) are used.
 
+- redux repository (https://github.com/TomaszJarkowski/redux)
+
+## Live (https://tomaszjarkowski.github.io/context/)
+
 ## Getting Started
 
-Download this repository to your computer. When you want to start one of the 2 applications, you have to open it and follow the instructions.
+Download this repository to your computer. When you want to start follow the instructions.
 
 ### Installing
 
